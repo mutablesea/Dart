@@ -1,10 +1,11 @@
 void main() {
   createProfile(name: "Mutant");
 
+  // Order doesnot matter with named parameters
   createProfile(age: 38, name: "Neon");
 }
 
-// required keyword means 'name' must needed
+// 'required' keyword means 'name' must needed
 void createProfile({required String name, int age = 18}) {
   print("Profile created for $name, and age $age.");
 }
