@@ -1,5 +1,5 @@
 // While loop
-void main () {
+void main() {
   int batteryLevel = 100;
 
   while (batteryLevel > 90) {

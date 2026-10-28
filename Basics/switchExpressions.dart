@@ -1,4 +1,4 @@
-void main () {
+void main() {
   String status = 'error';
 
   String message = switch (status) {
