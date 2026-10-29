@@ -8,6 +8,7 @@ void main() {
   print(fruits);
 
   // In 'Set' duplicates values are automatically ignored
+  // ignore: equal_elements_in_set
   Set<int> uniqueNumbers = {1, 2, 3, 3, 4};
   print("Testing Sets");
   print(uniqueNumbers);
