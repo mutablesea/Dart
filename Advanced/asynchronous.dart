@@ -10,6 +10,6 @@ void main() async {
   // Wait for 2 seconds before continuing to the next line
   String data = await fetchUserData();
 
-  print('2. Received $data');
+  print('2. Received $data.');
   print('3. Done!');
 }
